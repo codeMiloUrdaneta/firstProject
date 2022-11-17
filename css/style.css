@@ -1,0 +1,55 @@
+body { 
+    color: rgb(7, 4, 4);
+  }
+
+
+  #backgroundbody {
+    background: #46f363 local -500px -500px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    word-spacing: -0.9px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: oblique;
+    font-variant: normal;
+    text-transform: none;
+    }    
+
+    .paragraphFont {
+        font-family: "cursive", Times, serif;
+    }
+
+    #demoFont {
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        font-size: 16px;
+        letter-spacing: -0.2px;
+        word-spacing: -0.9px;
+        color: #000000;
+        font-weight: 700;
+        text-decoration: none;
+        font-style: oblique;
+        font-variant: normal;
+        text-transform: none;
+        }
+
+        #image3 {
+            position: absolute;
+            top: 160%;
+            left: 40%;
+        }
+
+        #image4 {
+            position: absolute;
+            top: 87%;
+            left: 40%;
+        }
+
+        img.rounded {
+            object-fit: cover;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+          }
+
