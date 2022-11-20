@@ -4,7 +4,7 @@ body {
 
 
   #backgroundbody {
-    background: #46f363 local -500px -500px;
+    background: #afdfb7 local -500px -500px;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 16px;
     letter-spacing: -0.2px;
@@ -48,8 +48,8 @@ body {
 
         img.rounded {
             object-fit: cover;
-            border-radius: 50%;
-            height: 100px;
-            width: 100px;
+            border-radius: 100%;
+            height: 110px;
+            width: 110px;
           }
 
