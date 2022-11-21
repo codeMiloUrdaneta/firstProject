@@ -51,5 +51,27 @@ body {
             border-radius: 100%;
             height: 110px;
             width: 110px;
+            border-spacing: 0mm;
           }
 
+
+
+        #flowerDescription {
+            font-family: cursive;
+            opacity: 0;
+            font-size: 15px;
+            margin-top: 25px;
+            text-align: top left;
+            -webkit-text-fill-color: rgb(217, 18, 243);
+        
+            -webkit-transition: opacity 6s ease-in-out;
+               -moz-transition: opacity 6s ease-in;
+                -ms-transition: opacity 6s ease-in;
+                 -o-transition: opacity 6s ease-in;
+                    transition: opacity 6s ease-in;
+
+        }
+
+        #webService {
+            font-size: 12px;
+        }
