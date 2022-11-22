@@ -1,138 +1,192 @@
+
+
+      #flowerDescription {
+        border-spacing: 0mm;
+        position: relative;
+        right: -10px;
+
+          font-family: cursive;
+          opacity: 0;
+          font-size: 15px;
+          margin-top: 25px;
+          text-align: top left;
+          -webkit-text-fill-color: rgb(7, 4, 7);
+      
+          -webkit-transition: opacity 5s ease-in-out;
+             -moz-transition: opacity 5s ease-in;
+              -ms-transition: opacity 5s ease-in;
+               -o-transition: opacity 5s ease-in;
+                  transition: opacity 5s ease-in;
+
+      }
+
+
 body { 
-    color: rgb(7, 4, 4);
-  }
+  color: rgb(7, 4, 4);
+}
 
+#titleFont {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-spacing: 0mm;
+  position: relative;
+  right: -10px;
 
-  #backgroundbody {
-    background: #afdfb7 local -500px -500px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 16px;
-    letter-spacing: -0.2px;
-    word-spacing: -0.9px;
-    color: #000000;
-    font-weight: 700;
-    text-decoration: none;
-    font-style: oblique;
-    font-variant: normal;
-    text-transform: none;
-    }    
-
-    .paragraphFont {
-        font-family: "cursive", Times, serif;
+    color: #4b3ef5;
+    text-shadow: 0 -1px 4px rgb(40, 41, 138), 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    color: #e987d9;
+    font-size: 40px;  
     }
 
-    #demoFont {
-        font-family: "Comic Sans MS", cursive, sans-serif;
-        font-size: 16px;
-        letter-spacing: -0.2px;
-        word-spacing: -0.9px;
-        color: #020307;
-        font-weight: 700;
-        text-decoration: none;
-        font-style: oblique;
-        font-variant: normal;
-        text-transform: none;
+#youtubeLocation {
+  border-spacing: 0mm;
+    position: relative;
+    right: -10px;
+}
+
+#contactLocation {
+  border-spacing: 0mm;
+  position: relative;
+  right: -10px;
+}
+
+#backgroundbody {
+  background: #afdfb7 local -500px -500px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.2px;
+  word-spacing: -0.9px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: oblique;
+  font-variant: normal;
+  text-transform: none;
+  }    
+
+  .paragraphFont {
+      font-family: "cursive", Times, serif;
+  }
+
+  #demoFont {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-size: 16px;
+      letter-spacing: -0.2px;
+      word-spacing: -0.9px;
+      color: #020307;
+      font-weight: 700;
+      text-decoration: none;
+      font-style: oblique;
+      font-variant: normal;
+      text-transform: none;
+      text-align-last: center;
+      }
+
+      #paragraphCentering {
+        text-align: center;
+  font-family: 'Bowlby One SC', cursive;
+  width: 620px;
+  height: 220px;
+  margin: 0 auto;
+      }
+
+      #image3 {
+          position: absolute;
+          top: 160%;
+          left: 40%;
+      }
+
+      #image4 {
+          position: absolute;
+          top: 87%;
+          left: 40%;
+      }
+
+      img.rounded {
+          object-fit: cover;
+          border-radius: 100%;
+          height: 110px;
+          width: 110px;
+          border-spacing: 0mm;
+            position:relative;
+            right: -10px;
         }
 
-        #image3 {
-            position: absolute;
-            top: 160%;
-            left: 40%;
-        }
-
-        #image4 {
-            position: absolute;
-            top: 87%;
-            left: 40%;
-        }
-
-        img.rounded {
-            object-fit: cover;
-            border-radius: 100%;
-            height: 110px;
-            width: 110px;
-            border-spacing: 0mm;
-          }
 
 
+      #flowerDescription {
+        border-spacing: 0mm;
+        position: relative;
+        right: -10px;
 
-        #flowerDescription {
-            font-family: cursive;
-            opacity: 0;
-            font-size: 15px;
-            margin-top: 25px;
-            text-align: top left;
-            -webkit-text-fill-color: rgb(7, 4, 7);
-        
-            -webkit-transition: opacity 5s ease-in-out;
-               -moz-transition: opacity 5s ease-in;
-                -ms-transition: opacity 5s ease-in;
-                 -o-transition: opacity 5s ease-in;
-                    transition: opacity 5s ease-in;
+          font-family: cursive;
+          opacity: 0;
+          font-size: 15px;
+          margin-top: 25px;
+          text-align: top left;
+          -webkit-text-fill-color: rgb(7, 4, 7);
+      
+          -webkit-transition: opacity 5s ease-in-out;
+             -moz-transition: opacity 5s ease-in;
+              -ms-transition: opacity 5s ease-in;
+               -o-transition: opacity 5s ease-in;
+                  transition: opacity 5s ease-in;
 
-        }
+      }
 
-        #webService {
-            font-size: 12px;
-        }
+      #webService {
+          font-size: 12px;
+      }
 
+  HTML CSS 
 
-
-    HTML CSS 
-
-    Result
-    Skip Results Iframe
+  Result
+  Skip Results Iframe
 
 EDIT ON
 
 html {
-  height:100%;
+height:100%;
 }
 
 body {
-  margin:0;
+margin:0;
 }
 
 .bg {
-  animation:slide s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, rgb(223, 178, 29) 50%, rgb(234, 243, 234) 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
+animation:slide s ease-in-out infinite alternate;
+background-image: linear-gradient(-60deg, rgb(223, 178, 29) 50%, rgb(234, 243, 234) 50%);
+bottom:0;
+left:-50%;
+opacity:.5;
+position:fixed;
+right:-50%;
+top:0;
+z-index:-1;
 }
 
 .bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
+animation-direction:alternate-reverse;
+animation-duration:4s;
 }
 
 .bg3 {
-  animation-duration:5s;
+animation-duration:5s;
 }
 
 
-  top:50%;
-  transform:translate(-50%, -50%);
+top:50%;
+transform:translate(-50%, -50%);
 }
 
 h1 {
-  font-family:monospace;
+font-family:monospace;
 }
 
 @keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
+0% {
+  transform:translateX(-25%);
 }
-
-
-* {
-    position: center;
-  }
+100% {
+  transform:translateX(25%);
+}
+}
